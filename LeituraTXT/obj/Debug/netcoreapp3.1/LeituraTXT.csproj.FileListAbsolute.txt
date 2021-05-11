@@ -1,0 +1,13 @@
+C:\Users\leticia.martins\source\repos\LeituraTXT\LeituraTXT\obj\Debug\netcoreapp3.1\LeituraTXT.AssemblyInfoInputs.cache
+C:\Users\leticia.martins\source\repos\LeituraTXT\LeituraTXT\obj\Debug\netcoreapp3.1\LeituraTXT.AssemblyInfo.cs
+C:\Users\leticia.martins\source\repos\LeituraTXT\LeituraTXT\obj\Debug\netcoreapp3.1\LeituraTXT.csproj.CoreCompileInputs.cache
+C:\Users\leticia.martins\source\repos\LeituraTXT\LeituraTXT\bin\Debug\netcoreapp3.1\LeituraTXT.exe
+C:\Users\leticia.martins\source\repos\LeituraTXT\LeituraTXT\bin\Debug\netcoreapp3.1\LeituraTXT.deps.json
+C:\Users\leticia.martins\source\repos\LeituraTXT\LeituraTXT\bin\Debug\netcoreapp3.1\LeituraTXT.runtimeconfig.json
+C:\Users\leticia.martins\source\repos\LeituraTXT\LeituraTXT\bin\Debug\netcoreapp3.1\LeituraTXT.runtimeconfig.dev.json
+C:\Users\leticia.martins\source\repos\LeituraTXT\LeituraTXT\bin\Debug\netcoreapp3.1\LeituraTXT.dll
+C:\Users\leticia.martins\source\repos\LeituraTXT\LeituraTXT\bin\Debug\netcoreapp3.1\LeituraTXT.pdb
+C:\Users\leticia.martins\source\repos\LeituraTXT\LeituraTXT\obj\Debug\netcoreapp3.1\LeituraTXT.dll
+C:\Users\leticia.martins\source\repos\LeituraTXT\LeituraTXT\obj\Debug\netcoreapp3.1\LeituraTXT.pdb
+C:\Users\leticia.martins\source\repos\LeituraTXT\LeituraTXT\obj\Debug\netcoreapp3.1\LeituraTXT.genruntimeconfig.cache
+C:\Users\leticia.martins\source\repos\LeituraTXT\LeituraTXT\obj\Debug\netcoreapp3.1\LeituraTXT.csprojAssemblyReference.cache
