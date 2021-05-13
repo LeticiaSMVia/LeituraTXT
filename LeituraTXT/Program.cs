@@ -40,6 +40,7 @@ namespace LeituraTXT
                         Console.WriteLine("Quem disse que essa opção existe? kkkk Tenta de novooo \n");
                         break;
                 }
+                Console.WriteLine("----------------------------------------------------------------");
             }
         }
 
@@ -52,7 +53,7 @@ namespace LeituraTXT
             DirectoryInfo Dir = new DirectoryInfo(@"C:\temp");
             var arquivo = Dir.GetFiles(nomeArquivo + ".txt", SearchOption.AllDirectories);
 
-            string FileName = arquivo[0].FullName.Replace(nomeArquivo + ".txt", "");
+            string FileName = arquivo[0].FullName;
 
             Console.WriteLine("Informe a sequência que deseja buscar em todos os arquivos");
 
@@ -65,13 +66,15 @@ namespace LeituraTXT
                 if (line.Contains(sequencia.ToUpper()))
                     novoArquivo.Add(line);
             }
-            Console.WriteLine(@"Linhas encontradas e salvas em: C:\Selecionados\" + nomeArquivo + ".txt");
+
+            if (novoArquivo.Count > 0)
+            {
+                Console.WriteLine(@"Linhas encontradas e salvas em: C:\Selecionados\" + nomeArquivo + ".txt");
+            }
 
             File.WriteAllLinesAsync(@"C:\Selecionados\" + nomeArquivo + ".txt", novoArquivo.ToArray());
-            foreach (string item in novoArquivo)
-            {
-                Console.WriteLine("\t" + item);
-            }
+            Console.WriteLine(@"Registrou " + novoArquivo.Count + " linhas de -> " + lines.Length + " linhas");
+            Console.WriteLine(" ");
         }
 
         private static void TodosArquivosSalvarSeparado()
@@ -92,7 +95,8 @@ namespace LeituraTXT
                     if (line.Contains(sequencia.ToUpper()))
                         novoArquivo.Add(line);
                 }
-                Console.WriteLine("Linhas encontradas pelo aquivo " + FileName);
+                Console.WriteLine("Resultado encontrado no aquivo " + FileName);
+                Console.WriteLine(@"Registrou " + novoArquivo.Count + " linhas de -> " + lines.Length + " linhas");
 
                 File.WriteAllLinesAsync(@"C:\Selecionados" + FileName, novoArquivo.ToArray());
                 foreach (string item in novoArquivo)
@@ -100,6 +104,7 @@ namespace LeituraTXT
                     Console.WriteLine("\t" + item);
                 }
                 novoArquivo = new List<string>();
+                Console.WriteLine(" ");
             }
         }
 
@@ -130,6 +135,7 @@ namespace LeituraTXT
             {
                 Console.WriteLine("\t" + item);
             }
+            Console.WriteLine(" ");
         }
     }
 }
